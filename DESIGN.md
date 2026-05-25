@@ -1,53 +1,53 @@
 ---
 name: Industrial Logistics Framework
 colors:
-  surface: '#f6fafe'
-  surface-dim: '#d6dade'
-  surface-bright: '#f6fafe'
+  surface: '#fff8f7'
+  surface-dim: '#e3d7d8'
+  surface-bright: '#fff8f7'
   surface-container-lowest: '#ffffff'
-  surface-container-low: '#f0f4f8'
-  surface-container: '#eaeef2'
-  surface-container-high: '#e4e9ed'
-  surface-container-highest: '#dfe3e7'
-  on-surface: '#171c1f'
-  on-surface-variant: '#44474d'
-  inverse-surface: '#2c3134'
-  inverse-on-surface: '#edf1f5'
-  outline: '#75777e'
-  outline-variant: '#c5c6ce'
-  surface-tint: '#4f5e7e'
-  primary: '#041632'
+  surface-container-low: '#fdf1f2'
+  surface-container: '#f7ebec'
+  surface-container-high: '#f1e5e6'
+  surface-container-highest: '#ece0e1'
+  on-surface: '#201a1b'
+  on-surface-variant: '#514346'
+  inverse-surface: '#352f30'
+  inverse-on-surface: '#faeeef'
+  outline: '#837376'
+  outline-variant: '#d5c2c5'
+  surface-tint: '#864e5c'
+  primary: '#2d0613'
   on-primary: '#ffffff'
-  primary-container: '#1b2b48'
-  on-primary-container: '#8393b5'
-  inverse-primary: '#b7c7eb'
-  secondary: '#505f76'
+  primary-container: '#471a28'
+  on-primary-container: '#be7e8e'
+  inverse-primary: '#fab3c4'
+  secondary: '#74575d'
   on-secondary: '#ffffff'
-  secondary-container: '#d0e1fb'
-  on-secondary-container: '#54647a'
-  tertiary: '#241300'
+  secondary-container: '#fcd6de'
+  on-secondary-container: '#785b62'
+  tertiary: '#001a07'
   on-tertiary: '#ffffff'
-  tertiary-container: '#3f2500'
-  on-tertiary-container: '#cc8200'
+  tertiary-container: '#033114'
+  on-tertiary-container: '#6e9b75'
   error: '#ba1a1a'
   on-error: '#ffffff'
   error-container: '#ffdad6'
   on-error-container: '#93000a'
-  primary-fixed: '#d7e2ff'
-  primary-fixed-dim: '#b7c7eb'
-  on-primary-fixed: '#091b37'
-  on-primary-fixed-variant: '#374765'
-  secondary-fixed: '#d3e4fe'
-  secondary-fixed-dim: '#b7c8e1'
-  on-secondary-fixed: '#0b1c30'
-  on-secondary-fixed-variant: '#38485d'
-  tertiary-fixed: '#ffddb8'
-  tertiary-fixed-dim: '#ffb95f'
-  on-tertiary-fixed: '#2a1700'
-  on-tertiary-fixed-variant: '#653e00'
-  background: '#f6fafe'
-  on-background: '#171c1f'
-  surface-variant: '#dfe3e7'
+  primary-fixed: '#ffd9e0'
+  primary-fixed-dim: '#fab3c4'
+  on-primary-fixed: '#360c1a'
+  on-primary-fixed-variant: '#6a3745'
+  secondary-fixed: '#ffd9e1'
+  secondary-fixed-dim: '#e2bdc5'
+  on-secondary-fixed: '#2a151b'
+  on-secondary-fixed-variant: '#5a4046'
+  tertiary-fixed: '#beeec2'
+  tertiary-fixed-dim: '#a3d2a8'
+  on-tertiary-fixed: '#00210b'
+  on-tertiary-fixed-variant: '#254f2f'
+  background: '#fff8f7'
+  on-background: '#201a1b'
+  surface-variant: '#ece0e1'
 typography:
   headline-lg:
     fontFamily: Inter
@@ -125,23 +125,23 @@ spacing:
 
 This design system is engineered for high-stakes logistics and customs environments where clarity, speed, and precision are paramount. The aesthetic follows a **Corporate/Modern** movement with an **Industrial** focus, prioritizing information density without sacrificing visual ergonomics.
 
-The visual language communicates security and institutional reliability. It employs a structured, grid-based approach that feels architectural and grounded. By utilizing a "data-first" philosophy, the design system minimizes decorative elements in favor of functional indicators, ensuring that customs agents and warehouse managers can process complex shipping manifests and regulatory data with minimal cognitive load.
+The visual language communicates security and institutional reliability. By transitioning to a palette of muted earth tones and deep forest accents, the system provides a more sophisticated, "executive-industrial" feel. It employs a structured, grid-based approach that feels architectural and grounded. By utilizing a "data-first" philosophy, the design system minimizes decorative elements in favor of functional indicators, ensuring that customs agents and warehouse managers can process complex shipping manifests and regulatory data with minimal cognitive load.
 
 **Key Principles:**
 - **Functional Density:** Maximizing screen real estate for data tables while maintaining rhythmic white space.
-- **Regulatory Authority:** Using a heavy-weight primary palette to evoke trust and compliance.
-- **Operational Clarity:** High-contrast status indicators to highlight urgent logistics bottlenecks.
+- **Regulatory Authority:** Using a sophisticated, muted primary palette to evoke trust and established permanence.
+- **Operational Clarity:** Using deep, high-contrast status indicators to highlight logistics states without visual fatigue.
 
 ## Colors
 
-The palette is anchored by **Deep Navy (#1B2B48)**, representing the stability of a customs-bonded institution. **Slate Gray (#64748B)** serves as the secondary functional color for supporting UI elements and icons, providing a neutral backdrop that reduces eye strain during long shifts.
+The palette is anchored by **Muted Rose (#a26675)**, representing the modern face of a customs-bonded institution. **Warm Taupe (#8e6f76)** serves as the secondary functional color for supporting UI elements and icons, providing a grounded, neutral backdrop that reduces eye strain during long shifts.
 
-**Industrial Amber (#F59E0B)** is used exclusively as a high-visibility accent for "In-Review," "Pending Customs," or "Warning" states. 
+**Deep Forest Green (#033114)** is used as a high-visibility, authoritative accent for "Cleared," "Security Verified," or "Standard" states. 
 
 - **Primary:** Navigation, primary actions, and branding.
 - **Secondary:** Secondary actions, inactive states, and structural borders.
-- **Accent:** Status badges, highlights, and critical call-to-outs.
-- **Neutrals:** Used for surface layering to create a clear "paper-on-desk" hierarchy against the background.
+- **Tertiary:** High-contrast status badges and specific success indicators.
+- **Neutrals:** Used for surface layering to create a clear "paper-on-desk" hierarchy against the background using stone-toned grays.
 
 ## Typography
 
@@ -170,12 +170,12 @@ Tight vertical spacing (`stack-sm`) is used between related form fields to maint
 To maintain a professional and efficient appearance, the design system avoids heavy shadows and skeuomorphism. Instead, it utilizes **Tonal Layers** and **Low-Contrast Outlines** to define hierarchy.
 
 **Layering Logic:**
-1. **Level 0 (Background):** Slate-tinted neutral (`#F8FAFC`) representing the warehouse floor/base.
-2. **Level 1 (Cards/Containers):** Pure white surfaces with a 1px border in `#E2E8F0`. This is the primary workspace for data.
-3. **Level 2 (Modals/Dropdowns):** Elevated surfaces using a very soft, diffused shadow (0px 4px 12px rgba(27, 43, 72, 0.08)) to indicate temporary interaction.
+1. **Level 0 (Background):** Stone-tinted neutral background representing the base environment.
+2. **Level 1 (Cards/Containers):** Pure white surfaces with a 1px border. This is the primary workspace for data.
+3. **Level 2 (Modals/Dropdowns):** Elevated surfaces using a very soft, diffused shadow (0px 4px 12px rgba(71, 26, 40, 0.08)) to indicate temporary interaction.
 
 **Visual Separation:**
-Vertical separators (1px wide) in the primary Navy or Slate color are used within tables to clearly divide data categories, mimicking the look of physical cargo manifests.
+Vertical separators (1px wide) in the Primary Rose or Taupe color are used within tables to clearly divide data categories, mimicking the look of physical cargo manifests.
 
 ## Shapes
 
@@ -188,23 +188,22 @@ The shape language is **Soft (0.25rem)**. This subtle rounding provides a modern
 ## Components
 
 ### Data Tables
-Tables are the heart of the system. They use a zebra-stripe pattern with high-contrast headers (`primary_color_hex`). Row heights are compact (40px) to maximize data visibility. Hover states on rows should use a light slate tint.
+Tables are the heart of the system. They use a zebra-stripe pattern with high-contrast headers utilizing the `primary_color_hex` (Muted Rose). Row heights are compact (40px) to maximize data visibility. Hover states on rows should use a light stone tint.
 
 ### Buttons
-- **Primary:** Solid Navy with white text. High-contrast and authoritative.
-- **Secondary:** Outlined Navy or Slate. Used for "Cancel" or "Export" actions.
+- **Primary:** Solid Muted Rose with white text. High-contrast and authoritative.
+- **Secondary:** Outlined Taupe. Used for "Cancel" or "Export" actions.
 - **Ghost:** Used for inline table actions to reduce visual noise.
 
 ### Status Badges
 Badges are used to denote the progress of goods. 
-- **Amber:** Pending Customs / Inspection.
-- **Navy:** In Transit / Registered.
-- **Green:** Cleared / Released.
-- **Red:** Discrepancy / Hold.
-Badges use a "tinted background + dark text" approach (e.g., Amber background at 20% opacity with 100% opacity Amber text).
+- **Forest Green:** Cleared / Released / Success.
+- **Rose:** Critical Hold / Discrepancy.
+- **Taupe:** Registered / Pending / In Transit.
+Badges use a "tinted background + dark text" approach (e.g., Forest Green background at 20% opacity with 100% opacity text).
 
 ### Form Fields
-Inputs use a white background with a 1px Slate border. On focus, the border thickens and changes to Navy. Labels are always persistent (not floating) and placed above the field in `label-md` style for clarity during rapid data entry.
+Inputs use a white background with a 1px Taupe border. On focus, the border thickens and changes to the Primary Rose. Labels are always persistent (not floating) and placed above the field in `label-md` style for clarity during rapid data entry.
 
 ### Shipping Cards
 Summary cards for individual shipments or containers. They feature a bold header with the Container ID in `mono-data` and use the 4px rounded corner profile to group related logistics data.
